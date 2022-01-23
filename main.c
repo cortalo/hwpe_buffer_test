@@ -19,19 +19,10 @@
 
 int main()
 {
-    printf("Hello World!\n");
 
-    uint32_t a = 147;
-    uint32_t b = 3;
 
-    set_buffer(a);
-    get_result(&b);
-
-    printf("result is %d\n", b);
-    set_buffer(213);
-    get_result(&b);
-    printf("result is %d\n", b);
-
+    set_buffer_mem();
+    get_result();
 
 
     return 0;
